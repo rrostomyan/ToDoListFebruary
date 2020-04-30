@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDo</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+<div class="wrapper">
+    <div class="inputWrapper">
+        <input onkeypress="onKeyPress(event)" id="input" type="text"/>
+        <span onclick="onAddClick()">Add</span>
+    </div>
+    <ul onclick="onListClick(event)" id="list"></ul>
+</div>
+</body>
+</html>
